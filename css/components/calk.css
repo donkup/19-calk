@@ -1,0 +1,47 @@
+body {
+  background-color: #fff;
+  margin: 0;
+}
+.skaiciuotuvas {
+  background-color: #eff1f5;
+  display: inline-block;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  border: 2px;
+  border-radius: 25px;
+}
+.ekranas {
+  background-color: aqua;
+  margin-top: 20px;
+  height: 100px;
+  text-align: right;
+}
+.ekranasMazas {
+  background-color: bisque;
+  height: 30px;
+  text-align: right;
+}
+.mygtukas {
+  background-color: #fff;
+  text-align: center;
+  line-height: 55px;
+  width: 55px;
+  height: 55px;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  float: left;
+}
+.mygtukas.pilkas {
+  background-color: #e0e2e6;
+}
+.mygtukas.tamsus {
+  background-color: #b2b3bb;
+}
+.mygtukas.rau {
+  background-color: #ff5467;
+}
